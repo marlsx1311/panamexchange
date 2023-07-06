@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: space_range;
+    src: url(./fuentes/spaceranger.ttf);
+}
+body{
+    background-image: linear-gradient( 360deg, #11009E, #9681EB);
+    height: 100vh;
+}
+header{
+    display: flex;
+    border-bottom: #fff solid 3px;
+    gap: 10px;
+    align-items: center;
+    
+    justify-content: space-between
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.title{
+    font-family: space_range;
+    font-weight: 1;
+    -webkit-text-stroke: 1px #11009E;
+    color:#fff;
+    font-size: 35px;
+    
+}
+ul{
+    display: flex;
+    color: white;
+    gap: 20px;
+    color: #fff; 
+    padding: 15px;
+    
+}
+ul li {
+    list-style: none;
+    font-family: space_range;  
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login{
+    display: none;
+}
