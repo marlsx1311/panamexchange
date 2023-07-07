@@ -7,15 +7,13 @@
     src: url(./fuentes/spaceranger.ttf);
 }
 body{
-    background-image: linear-gradient( 360deg, #11009E, #9681EB);
+    background-image: linear-gradient( 262deg, #11009E, #9681EB);
     height: 100vh;
 }
 header{
     display: flex;
     border-bottom: #fff solid 3px;
-    gap: 10px;
     align-items: center;
-    
     justify-content: space-between
 
 }
@@ -31,7 +29,7 @@ header{
 .title{
     font-family: space_range;
     font-weight: 1;
-    -webkit-text-stroke: 1px #11009E;
+    -webkit-text-stroke: 2px #11009E;
     color:#fff;
     font-size: 35px;
     
@@ -40,13 +38,12 @@ ul{
     display: flex;
     color: white;
     gap: 20px;
-    color: #fff; 
-    padding: 15px;
-    
+    gap: 15vh;
 }
 ul li {
     list-style: none;
     font-family: space_range;  
+    
 }
 li a {
     text-decoration: none;
@@ -56,3 +53,26 @@ li a {
 .login{
     display: none;
 }
+.button_login{
+    margin: 25px 50px 25px 50px;
+}
+.btn_lg{
+    width: 120px;
+    height: 35px;
+    border-radius: 90px;
+    background-color: black;
+    border: 3px rgb(215, 225, 13) solid;
+    color: rgb(215, 225, 13);
+    font-family:space_range;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+li:hover{
+    animation:slide-top 0.3s linear both}
+    @keyframes slide-top
+    {0%{transform:translateY(0)}100%{transform:translateY(-5px)}  
+}
+.btn_lg:hover{animation:shadow-drop-center 0.2s linear both} @keyframes shadow-drop-center{0%{box-shadow:0 0 0 0 transparent}100%{box-shadow:0 0 50px 0 rgb(200, 191, 242)}
+}
+
