@@ -1,0 +1,13 @@
+.calculadoraContenedor
+{
+    height: 400px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: solid 1px red;
+}
