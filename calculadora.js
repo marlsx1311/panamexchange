@@ -8,18 +8,19 @@ const resulUs = document.querySelector(".resultado-us")
 
 btnCalcular.addEventListener("click" , calculoBs);
 btnCalcularUs.addEventListener("click", calculoDsBs);
-let tasaDelDiaCop = 165;
-let tasaDolar = 29.66;
+let tasaDelDiaCop = 155;
+let tasaDolar = 28.27;
 
 function calculoBs(){
     valorUsuarioBs = inbs.value;
     let valorFinal = valorUsuarioBs / tasaDelDiaCop;
-    resulBs.innerText = valorFinal.toFixed(2)+"COP";
-}
-
-function calculoDsBs(){
+    resulBs.innerText = valorFinal.toFixed(2)+"BS";
     valorUsuarioUs = inbs.value;
     let valorFinalUs = (valorUsuarioUs / tasaDelDiaCop)/tasaDolar ;
     resulUs.innerText = valorFinalUs.toFixed(2)+"USD";
+}
+
+function calculoDsBs(){
+    
 }
 
