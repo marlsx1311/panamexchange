@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@font-face {
+    font-family: space_range;
+    src: url(./fuentes/spaceranger.ttf);
+ }
+ /*font-family: 'Comfortaa', cursive;*/
+:root{
+    --azul-oscuro: #011b77;
+    --amarillo: #eee502;
+    --verde:#00973c;
+    --azul-claro:#87b0dc;
+    --dorado:#f1d866;
+    --blanco-hueso-brillamnte:#F8F6F4;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(260deg, #4E4FEB, #87b0dc);
+    width: 100%;
+    min-width: 320px;
+    height: 300px;
+    box-sizing: border-box;
+    flex-wrap:1 ;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+}
+.menu_icon{
+    position: relative;
+    left: 150px;
+    bottom: 110px;
+}
+.logo_container_img{
+    width: 120px;
+}
+.logo_container_titulo{
+    font-family: space_range;
+    color: var(--blanco-hueso-brillamnte);
+    font-weight: 100;
+    font-size: 40px;
+}
+.logo_container_parrafo{
+    font-family: 'Comfortaa', cursive; 
+    color: var(--dorado);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
