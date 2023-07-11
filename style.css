@@ -89,6 +89,7 @@ li:hover{
     border: solid 5px #FFEA20;
     background-image: linear-gradient(45deg, #865DFF, #060047);
     border-radius: 10px;
+    margin-top: 15px;
 
 }
 .inputCop label{
@@ -141,4 +142,74 @@ li:hover{
     color: #FFEA20;
     text-align: center;
 }
-
+main{
+    display:flex;
+    height: 73%;
+    gap: 60px;
+    justify-content: space-between;
+}
+.imagen-banner{
+    width: 300px;
+}
+/* Estilos generales del footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-social a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el texto de derechos de autor */
+  .footer-bottom {
+    margin-top: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  

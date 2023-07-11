@@ -6,8 +6,8 @@ const resulUs = document.querySelector(".resultado-us")
 
 
 btnCalcular.addEventListener("click" , calculoBs);
-let tasaDelDiaCop = 155;
-let tasaDolar = 28.27;
+let tasaDelDiaCop = 154;
+let tasaDolar = 29.67;
 
 function calculoBs(){
     valorUsuarioBs = inbs.value;
