@@ -11,6 +11,8 @@
     --azul-claro:#87b0dc;
     --dorado:#f1d866;
     --blanco-hueso-brillamnte:#F8F6F4;
+    --morado-oscuro:#71267f;
+    --morado-claro:#8f4b9d;
     
 
 }
@@ -85,4 +87,56 @@ header{
     height: 40px;
     margin-left: 6px;
     background-image: url(./img/svg/more.svg);
+}
+.tasa-container{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px red;
+    height: 700px;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+.info{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.info h2{
+    background-color: var(--morado-oscuro);
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 90px;
+    font-family:'Comfortaa', cursive;
+    font-weight:bolder;
+    font-size: 25px;
+    color:var(--blanco-hueso-brillamnte) ;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-tasa{
+    display: flex;
+}
+
+.tasa{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-evenly;
+    border: solid 1px red;
+}
+.tasa h3{
+    border: solid 1px red;
+    position: absolute;
+    width: 300px;
+    
+}
+
+.background-image img{
+    width: 200px;
+    margin-top: 150px;
+    border: solid 1px red;
 }
