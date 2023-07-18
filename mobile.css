@@ -13,8 +13,6 @@
     --blanco-hueso-brillamnte:#F8F6F4;
     --morado-oscuro:#71267f;
     --morado-claro:#8f4b9d;
-    
-
 }
 *{
     padding: 0;
@@ -35,7 +33,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -40px;
 }
 .menu_icon{
     position: relative;
@@ -49,14 +46,15 @@ header{
     font-family: space_range;
     color: var(--blanco-hueso-brillamnte);
     font-weight: 100;
-    font-size: 40px;
+    font-size: 100%px;
 }
 .logo_container_parrafo{
     font-family: 'Comfortaa', cursive; 
     color: var(--dorado);
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 600;
     margin-top: 30px; 
+    
 }
 .header-button{
     position:absolute;
@@ -76,8 +74,7 @@ header{
     font-weight: bolder;
     text-decoration: none;
     color: var(--azul-oscuro);
-    
-    
+    z-index: 100;
 }
 .header-button span{
     position: absolute;
@@ -88,6 +85,8 @@ header{
     margin-left: 6px;
     background-image: url(./img/svg/more.svg);
 }
+
+
 .tasa-container{
     display: flex;
     flex-direction: column;
