@@ -1,0 +1,18 @@
+const inbs = document.querySelector(".inBs");
+const btnCalcular = document.querySelector(".btn-calcular");
+const resulBs = document.querySelector(".resultado-bs");
+const resulUs = document.querySelector(".resultado-us")
+
+
+btnCalcular.addEventListener("click" , calculoBs);
+let tasaDelDiaCop = 154;
+let tasaDolar = 29.67;
+
+function calculoBs(){
+    valorUsuarioBs = inbs.value;
+    let valorFinal = valorUsuarioBs / tasaDelDiaCop;
+    resulBs.innerText = valorFinal.toFixed(2)+"BS";
+    valorUsuarioUs = inbs.value;
+    let valorFinalUs = (valorUsuarioUs / tasaDelDiaCop)/tasaDolar ;
+    resulUs.innerText = valorFinalUs.toFixed(2)+"USD";
+}
