@@ -75,6 +75,7 @@ header{
     text-decoration: none;
     color: var(--azul-oscuro);
     z-index: 100;
+    opacity: 0.90;
 }
 .header-button span{
     position: absolute;
@@ -95,72 +96,40 @@ header{
     align-items: center;
     width: 100%;
     min-width: 320px;
-    height: 300px;
+    height: auto;
     box-sizing: border-box;
     overflow: hidden;
 
 }
 .info{
-    
-    text-align: center;
-    font-size: 1.4rem;
-}
-.info h2{
-    height: 50px;
-    width: 300px;
-    border: none;
-    border-radius: 90px;
-    font-family:'Comfortaa', cursive;
-    font-weight:bolder;
-    font-size: 25px;
-    color:var(--morado-oscuro) ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-style: oblique;
-}
-.info-tasa{
-    display: flex;
-    
-
-
-}
-.background-image img{
-    width: 50px;
-    
-}
-.tasa-interactiva{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-
+    align-items: center;
+    width: 100%;
 }
-.tasa-num{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 170px;
-    height: 50px;
+.info h2{
     font-family:space_range ;
-    font-size: 50px;
-    border-radius: 90px;
-    background-color: var(--azul-oscuro);
-    color: var(--amarillo);
-    
+    font-size: 40px;
+    margin-top: 15px;
+    color: var(--morado-claro);
+}
+.info p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
 }
 .tasa-fecha{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 190px;
-    height: 50px;
-    font-family:space_range ;
-    font-size: 30px;
+    font-family:'Comfortaa', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    color: var(--azul-oscuro);
+}  
+.main-table-container img{
+    width: 80px;
     border-radius: 90px;
-    background-color: var(--morado-oscuro);
-    color: var(--azul-claro);
-    
 }
+
 .carousel-slide{
     width: 100%;
     position: relative;
