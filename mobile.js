@@ -2,7 +2,11 @@ const inbs = document.querySelector(".inBs");
 const btnCalcular = document.querySelector(".btn-calcular");
 const resulBs = document.querySelector(".resultado-bs");
 const resulUs = document.querySelector(".resultado-us");
-const act = document.querySelector(".tasa-fecha")
+const act = document.querySelector(".tasa-fecha");
+const spanUsd = document.querySelector(".spanusd");
+const spanCop = document.querySelector(".spancop");
+const spanClp = document.querySelector(".spanclp");
+
 
 window.addEventListener("load", actualizacion)
 
@@ -17,7 +21,10 @@ function actualizacion(){
 }
 
 function moneda(cop, us, clp, day){
-    act.innerText = day
+    spanCop.innerText = cop;
+    spanUsd.innerText = us;
+    spanClp.innerText = clp;
+    act.innerText = day;
 }
 function calculoBs(){
     valorUsuarioBs = inbs.value;

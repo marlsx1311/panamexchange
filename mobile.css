@@ -126,8 +126,12 @@ header{
     color: var(--azul-oscuro);
 }  
 .main-table-container img{
-    width: 80px;
-    border-radius: 90px;
+    width: 60px;
+    
+}
+.main-table-container td{
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive; 
 }
 
 .carousel-slide{
