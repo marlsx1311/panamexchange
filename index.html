@@ -2,40 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logope.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Panamexchange</title>
+    <link rel="stylesheet" href="./mobile.css">
+    <title>PANAMEXCHANGE</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/logo.png" alt="Logo de la empresa">
-            <h1 class="title">Panamexchange</h1>
-        </div>
-        
-        <nav>
-            <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">acerca de</a></li>
-                <li><a href="#">servicios</a></li>
-                <li><a href="#">contacto</a></li>
-            </ul>
-        </nav>
-        <div class="button_login slide-top">
-            <button class="btn_lg">Login</button>
-        </div>
-        <div class="login">
-            <form id="loginForm">
-                <input type="text" id="username" placeholder="Usuario" required>
-                <input type="password" id="password" placeholder="Contraseña" required>
-                <button type="submit">Iniciar sesión</button>
-            </form>
-        </div>
+        <img class="logo_container_img" src="./img/logo.png" alt="logo-panaexchange">
+        <!-- <img class="menu_icon" src="./img/svg/menu.svg" alt="menu"> -->
+        <div class="logo-container"> 
+            <h1 class="logo_container_titulo">panamexchange</h1>
+            <p class="logo_container_parrafo">Tu cambio rapido y seguro </p>
+            <a href="#calculo" class="header-button">Calcula tu tasa<span></span></a>
+        </div>   
     </header>
-    <main> 
-        <section class="calculadoraContenedor">
+    <main>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="./img/pbl (1).png" alt="Imagen 1">
+                <img src="./img/pbl (2).png" alt="Imagen 2">
+                <img src="./img/pbl (3).png" alt="Imagen 3">
+            </div>
+        </div>
+         <section class="tasa-container">
+            <div class="info">
+                <h2>TASA DEL DÍA</h2>
+                <span class="tasa-fecha">9 DE MAYO</span>
+                <p>Monedas</p>
+            </div>
+            <div class="main-table-container">
+                <table>
+                    <tr>
+                        <td><img src="./img/usab.png" alt=""></td>
+                        <td>USD</td>
+                        <td><span class="spanusd">195</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./img/colb.png" alt=""></td>
+                        <td>COP</td>
+                        <td><span class="spancop">195</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./img/chib.png" alt=""></td>
+                        <td>CLP</td>
+                        <td><span class="spanclp">195</span></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section> 
+        <section id="calculo" class="calculadoraContenedor">
             <h2 class="titulo-transferencia">CALCULA TU TRANSFERENCIA AQUI</h2>
             <div class="inputCop">
                 <label for="">COP</label>
@@ -53,33 +70,9 @@
                 <span class="resultado-us">USD</span>
             </div>
         </section>
-        <img  class="imagen-banner" src="./img/Captura_de_pantalla__2_-removebg-preview.png" alt="imagen banner">
     </main>
-    <footer>
-        <div class="footer-container">
-          <div class="footer-logo">
-            <img src="logo.png" alt="Logo de la empresa">
-          </div>
-          <div class="footer-links">
-            <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Acerca de</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </div>
-          <div class="footer-social">
-            <ul>
-              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>Todos los derechos reservados &copy; 2023</p>
-        </div>
-      </footer>
-    <script src="./main.js"></script>
+    <footer></footer>
+    <script src="./mobile.js"></script>
+    
 </body>
 </html>
