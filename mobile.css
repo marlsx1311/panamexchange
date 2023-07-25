@@ -13,6 +13,7 @@
     --blanco-hueso-brillamnte:#F8F6F4;
     --morado-oscuro:#71267f;
     --morado-claro:#8f4b9d;
+    --gris-oscuro: #2D2727;
 }
 *{
     padding: 0;
@@ -231,4 +232,10 @@ header{
     gap: 150px;
 }
 
-
+footer{
+    background-color: var(--gris-oscuro);
+}
+.derechos{
+    background-color: black;
+    color: var(--blanco-hueso-brillamnte);
+}
