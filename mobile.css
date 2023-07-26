@@ -233,7 +233,17 @@ header{
 
 footer{
     background-color: var(--gris-oscuro);
+    color: var(--blanco-hueso-brillamnte);
+    font-family: 'Comfortaa', cursive;
+    font-size: small;
+    
 }
+footer h3{
+    font-family: space_range;
+    font-weight: 100;
+    font-size: medium;
+}
+
 .derechos{
     background-color: black;
     color: var(--blanco-hueso-brillamnte);
