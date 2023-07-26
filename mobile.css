@@ -19,6 +19,13 @@
     padding: 0;
     margin: 0;
 }
+.btn-whap{
+    width: 60px;
+    position: fixed;
+    z-index: 100;
+    left: 80vw;
+    top: 85vh;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -234,21 +241,53 @@ footer{
     font-family: 'Comfortaa', cursive;
     font-size: small;
     
+    
+    
 }
 footer h3{
     font-family: space_range;
     font-weight: 100;
-    font-size: medium;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.perfil{
+    padding: 5%;
+    gap: 15px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5%;
+
+}
+.contact-info p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media{
+    padding: 5%;
+}
+
+.social-media img{
+    height: 45px;
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--blanco-hueso-brillamnte);
+    font-size: 15px;
 }
 
 .derechos{
+    text-align: center;
     background-color: black;
     color: var(--blanco-hueso-brillamnte);
-}
-.btn-whap{
-    width: 60px;
-    position: fixed;
-    z-index: 100;
-    left: 80vw;
-    top: 85vh;
+    width: 100%;
 }
