@@ -175,9 +175,6 @@ header{
     justify-content: center;
     gap: 30px;
     background-image: linear-gradient(45deg, var(--azul-claro) , #060047);
-   
-    
-
 }
 .titulo-transferencia{
     font-family: space_range;
@@ -247,4 +244,11 @@ footer h3{
 .derechos{
     background-color: black;
     color: var(--blanco-hueso-brillamnte);
+}
+.btn-whap{
+    width: 60px;
+    position: fixed;
+    z-index: 100;
+    left: 80vw;
+    top: 85vh;
 }
