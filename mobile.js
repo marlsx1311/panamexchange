@@ -13,10 +13,10 @@ window.addEventListener("load", actualizacion)
 btnCalcular.addEventListener("click" , calculoBs);
 
 let index = 0
-let tasaDelDiaClp = 154;
-let tasaDelDiaCop = 154;
-let tasaDolar = 29.67;
-let fecha = " 21 de mayo"
+let tasaDelDiaClp = 137;
+let tasaDelDiaCop = 137;
+let tasaDolar = 31.64;
+let fecha = " 27 de Julio"
 
 function actualizacion(){
     moneda(tasaDelDiaCop, tasaDolar, tasaDelDiaClp, fecha)

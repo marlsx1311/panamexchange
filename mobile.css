@@ -300,14 +300,19 @@ footer h3{
         align-items: center;
     }
     main{
-        height: 80vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
     }
     .logo_container_titulo{
-        font-size: 45px;
+        font-size: 35px;
     }
     .logo-container{
         display: flex;
         flex-direction: row;
+    }
+    .logo_container_img{
+        width: 100px;
     }
     .logo_container_parrafo{
         display: none;
@@ -316,8 +321,11 @@ footer h3{
     .header-button{
         display: none;
     }
-    .carousel-container{
-        display: none;
+    .main_tasa-calculo{
+        display: flex;
+    }
+    .carousel-container img{
+        width: 60vh;
     }
     main{
         display: flex;

@@ -27,51 +27,54 @@
                 <img src="./img/pbl (3).png" alt="Imagen 3">
             </div>
         </div>
-         <section class="tasa-container">
-            <div class="info">
-                <h2>TASA DEL DÍA</h2>
-                <span class="tasa-fecha">9 DE MAYO</span>
-                <p>Monedas</p>
+        <div class="main_tasa-calculo">
+            <div class="tasa-container">
+                <div class="info">
+                    <h2>TASA DEL DÍA</h2>
+                    <span class="tasa-fecha">9 DE MAYO</span>
+                    <p>Monedas</p>
+                </div>
+                <div class="main-table-container">
+                    <table>
+                        <tr>
+                            <td><img src="./img/usab.png" alt=""></td>
+                            <td>USD</td>
+                            <td><span class="spanusd">195</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/colb.png" alt=""></td>
+                            <td>COP</td>
+                            <td><span class="spancop">195</span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/chib.png" alt=""></td>
+                            <td>CLP</td>
+                            <td><span class="spanclp">195</span></td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div> 
+            <div id="calculo" class="calculadoraContenedor">
+                <h2 class="titulo-transferencia">CALCULA TU TRANSFERENCIA AQUI</h2>
+                <div class="inputCop">
+                    <label for="">COP</label>
+                    <input class="inBs" type="number">
+                </div>
+                <div class="botones-calcular">
+                    <button class="btn-calcular">CALCULAR</button>
+                </div>
+                <div class="img-icon">
+                    <img class="img-bs" src="./img/bolovaresicon.png" alt="">
+                    <img class="img-usd" src="./img/dolarcon.png" alt="">
+                </div>
+                <div class="resultado-conversion">
+                    <span class="resultado-bs">BS</span>
+                    <span class="resultado-us">USD</span>
+                </div>
             </div>
-            <div class="main-table-container">
-                <table>
-                    <tr>
-                        <td><img src="./img/usab.png" alt=""></td>
-                        <td>USD</td>
-                        <td><span class="spanusd">195</span></td>
-                    </tr>
-                    <tr>
-                        <td><img src="./img/colb.png" alt=""></td>
-                        <td>COP</td>
-                        <td><span class="spancop">195</span></td>
-                    </tr>
-                    <tr>
-                        <td><img src="./img/chib.png" alt=""></td>
-                        <td>CLP</td>
-                        <td><span class="spanclp">195</span></td>
-                    </tr>
-                </table>
-            </div>
-            
-        </section> 
-        <section id="calculo" class="calculadoraContenedor">
-            <h2 class="titulo-transferencia">CALCULA TU TRANSFERENCIA AQUI</h2>
-            <div class="inputCop">
-                <label for="">COP</label>
-                <input class="inBs" type="number">
-            </div>
-            <div class="botones-calcular">
-                <button class="btn-calcular">CALCULAR</button>
-            </div>
-            <div class="img-icon">
-                <img class="img-bs" src="./img/bolovaresicon.png" alt="">
-                <img class="img-usd" src="./img/dolarcon.png" alt="">
-            </div>
-            <div class="resultado-conversion">
-                <span class="resultado-bs">BS</span>
-                <span class="resultado-us">USD</span>
-            </div>
-        </section>
+        </div>
+         
     </main>
     <footer>
         <div class="contenido-footer">
