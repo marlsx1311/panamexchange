@@ -291,3 +291,42 @@ footer h3{
     color: var(--blanco-hueso-brillamnte);
     width: 100%;
 }
+@media (min-width: 420px){
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        align-items: center;
+    }
+    main{
+        height: 80vh;
+    }
+    .logo_container_titulo{
+        font-size: 45px;
+    }
+    .logo-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo_container_parrafo{
+        display: none;
+    }
+
+    .header-button{
+        display: none;
+    }
+    .carousel-container{
+        display: none;
+    }
+    main{
+        display: flex;
+
+    }
+    footer{
+        
+    }
+    .contenido-footer{
+        display: flex;
+    }
+}
