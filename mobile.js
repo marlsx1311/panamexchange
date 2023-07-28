@@ -16,7 +16,7 @@ let index = 0
 let tasaDelDiaClp = 137;
 let tasaDelDiaCop = 137;
 let tasaDolar = 31.86;
-let fecha = " 27 de Julio"
+let fecha = " 28 de Julio"
 
 function actualizacion(){
     moneda(tasaDelDiaCop, tasaDolar, tasaDelDiaClp, fecha)
