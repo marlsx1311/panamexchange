@@ -15,7 +15,7 @@ btnCalcular.addEventListener("click" , calculoBs);
 let index = 0
 let tasaDelDiaClp = 137;
 let tasaDelDiaCop = 137;
-let tasaDolar = 31.64;
+let tasaDolar = 31.86;
 let fecha = " 27 de Julio"
 
 function actualizacion(){
